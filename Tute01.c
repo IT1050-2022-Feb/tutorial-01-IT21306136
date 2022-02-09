@@ -5,7 +5,19 @@
 #include <stdio.h>
 
 int main() {
-  
+  int m1,m2;
+   float sum,avg=0;
+   printf("Enter Mark 1:");
+   scanf("%d",&m1);
+   printf("Enter Mark 2:");
+   scanf("%d",&m2);
+   
+   sum = m1+m2;
+   printf("sum :%f\n);
+   avg = sum/2.0;
+   printf("Avg :%.2f\n);
+   
+   
   return 0;
 }
 
