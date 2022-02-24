@@ -13,9 +13,9 @@ int main() {
    scanf("%d",&m2);
    
    sum = m1+m2;
-   printf("sum :%f\n);
+   printf("sum :%f\n",sum);
    avg = sum/2.0;
-   printf("Avg :%.2f\n);
+   printf("Avg :%.2f\n",avg);
    
    
   return 0;
